@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAD2096A1D95DCF500638BE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD209691D95DCF500638BE0 /* main.m */; };
+		FAD2096D1D95DCF500638BE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD2096C1D95DCF500638BE0 /* AppDelegate.m */; };
+		FAD209751D95DCF500638BE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD209741D95DCF500638BE0 /* Assets.xcassets */; };
+		FAD209781D95DCF500638BE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD209761D95DCF500638BE0 /* LaunchScreen.storyboard */; };
+		FAD209831D95DCF500638BE0 /* RyanAirTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD209821D95DCF500638BE0 /* RyanAirTests.m */; };
+		FAD209941D95DDCA00638BE0 /* ChoosePassengersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD209921D95DDCA00638BE0 /* ChoosePassengersViewController.m */; };
+		FAD209951D95DDCA00638BE0 /* ChoosePassengersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD209931D95DDCA00638BE0 /* ChoosePassengersViewController.xib */; };
+		FAD2099B1D96B0FE00638BE0 /* FlightSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD209991D96B0FE00638BE0 /* FlightSearchViewController.m */; };
+		FAD2099C1D96B0FE00638BE0 /* FlightSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD2099A1D96B0FE00638BE0 /* FlightSearchViewController.xib */; };
+		FAD209A21D96D7B000638BE0 /* Airport.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD209A11D96D7B000638BE0 /* Airport.m */; };
+		FAD209A81D96DBCF00638BE0 /* ConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD209A71D96DBCF00638BE0 /* ConnectionManager.m */; };
+		FAD209AC1D96E23000638BE0 /* AirportsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD209AA1D96E23000638BE0 /* AirportsViewController.m */; };
+		FAD209AD1D96E23000638BE0 /* AirportsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD209AB1D96E23000638BE0 /* AirportsViewController.xib */; };
+		FAD209B11D96E72200638BE0 /* SearchData.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD209B01D96E72200638BE0 /* SearchData.m */; };
+		FAD209B41D971AB800638BE0 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD209B31D971AB800638BE0 /* DataManager.m */; };
+		FAD209B91D97330E00638BE0 /* SearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD209B71D97330E00638BE0 /* SearchResultsViewController.m */; };
+		FAD209BA1D97330E00638BE0 /* SearchResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD209B81D97330E00638BE0 /* SearchResultsViewController.xib */; };
+		FAD209BD1D9735C400638BE0 /* SearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD209BC1D9735C400638BE0 /* SearchResult.m */; };
+		FAD209C01D97472E00638BE0 /* Fare.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD209BF1D97472E00638BE0 /* Fare.m */; };
+		FAD209C31D97481D00638BE0 /* Flight.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD209C21D97481D00638BE0 /* Flight.m */; };
+		FAD209CB1D97D91800638BE0 /* ResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD209C91D97D91800638BE0 /* ResultCell.m */; };
+		FAD209CC1D97D91800638BE0 /* ResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD209CA1D97D91800638BE0 /* ResultCell.xib */; };
+		FAD209D01D97F23100638BE0 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD209CF1D97F23100638BE0 /* Utility.m */; };
+		FAD209D11D98103100638BE0 /* SearchData.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD209B01D96E72200638BE0 /* SearchData.m */; };
+		FAD209D41D982D4500638BE0 /* LoadingIndicatior.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD209D31D982D4500638BE0 /* LoadingIndicatior.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAD2097F1D95DCF500638BE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD2095D1D95DCF400638BE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD209641D95DCF500638BE0;
+			remoteInfo = RyanAir;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAD209651D95DCF500638BE0 /* RyanAir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RyanAir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD209691D95DCF500638BE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAD2096B1D95DCF500638BE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAD2096C1D95DCF500638BE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAD209741D95DCF500638BE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAD209771D95DCF500638BE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAD209791D95DCF500638BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD2097E1D95DCF500638BE0 /* RyanAirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RyanAirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD209821D95DCF500638BE0 /* RyanAirTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RyanAirTests.m; sourceTree = "<group>"; };
+		FAD209841D95DCF500638BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD209911D95DDCA00638BE0 /* ChoosePassengersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChoosePassengersViewController.h; path = Passengers/ChoosePassengersViewController.h; sourceTree = "<group>"; };
+		FAD209921D95DDCA00638BE0 /* ChoosePassengersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChoosePassengersViewController.m; path = Passengers/ChoosePassengersViewController.m; sourceTree = "<group>"; };
+		FAD209931D95DDCA00638BE0 /* ChoosePassengersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChoosePassengersViewController.xib; path = Passengers/ChoosePassengersViewController.xib; sourceTree = "<group>"; };
+		FAD209981D96B0FE00638BE0 /* FlightSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlightSearchViewController.h; path = Home/FlightSearchViewController.h; sourceTree = "<group>"; };
+		FAD209991D96B0FE00638BE0 /* FlightSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlightSearchViewController.m; path = Home/FlightSearchViewController.m; sourceTree = "<group>"; };
+		FAD2099A1D96B0FE00638BE0 /* FlightSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FlightSearchViewController.xib; path = Home/FlightSearchViewController.xib; sourceTree = "<group>"; };
+		FAD2099E1D96D27000638BE0 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Common/Constants.h; sourceTree = "<group>"; };
+		FAD209A01D96D7B000638BE0 /* Airport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Airport.h; path = DataModel/Airport.h; sourceTree = "<group>"; };
+		FAD209A11D96D7B000638BE0 /* Airport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Airport.m; path = DataModel/Airport.m; sourceTree = "<group>"; };
+		FAD209A61D96DBCF00638BE0 /* ConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConnectionManager.h; path = ConnectionManager/ConnectionManager.h; sourceTree = "<group>"; };
+		FAD209A71D96DBCF00638BE0 /* ConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConnectionManager.m; path = ConnectionManager/ConnectionManager.m; sourceTree = "<group>"; };
+		FAD209A91D96E23000638BE0 /* AirportsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AirportsViewController.h; path = Airports/AirportsViewController.h; sourceTree = "<group>"; };
+		FAD209AA1D96E23000638BE0 /* AirportsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AirportsViewController.m; path = Airports/AirportsViewController.m; sourceTree = "<group>"; };
+		FAD209AB1D96E23000638BE0 /* AirportsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AirportsViewController.xib; path = Airports/AirportsViewController.xib; sourceTree = "<group>"; };
+		FAD209AF1D96E72200638BE0 /* SearchData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchData.h; path = DataModel/SearchData.h; sourceTree = "<group>"; };
+		FAD209B01D96E72200638BE0 /* SearchData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchData.m; path = DataModel/SearchData.m; sourceTree = "<group>"; };
+		FAD209B21D971AB800638BE0 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataManager.h; path = ConnectionManager/DataManager.h; sourceTree = "<group>"; };
+		FAD209B31D971AB800638BE0 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataManager.m; path = ConnectionManager/DataManager.m; sourceTree = "<group>"; };
+		FAD209B61D97330E00638BE0 /* SearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchResultsViewController.h; path = SearchResult/SearchResultsViewController.h; sourceTree = "<group>"; };
+		FAD209B71D97330E00638BE0 /* SearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchResultsViewController.m; path = SearchResult/SearchResultsViewController.m; sourceTree = "<group>"; };
+		FAD209B81D97330E00638BE0 /* SearchResultsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SearchResultsViewController.xib; path = SearchResult/SearchResultsViewController.xib; sourceTree = "<group>"; };
+		FAD209BB1D9735C400638BE0 /* SearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchResult.h; path = DataModel/SearchResult.h; sourceTree = "<group>"; };
+		FAD209BC1D9735C400638BE0 /* SearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchResult.m; path = DataModel/SearchResult.m; sourceTree = "<group>"; };
+		FAD209BE1D97472E00638BE0 /* Fare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fare.h; path = DataModel/Fare.h; sourceTree = "<group>"; };
+		FAD209BF1D97472E00638BE0 /* Fare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fare.m; path = DataModel/Fare.m; sourceTree = "<group>"; };
+		FAD209C11D97481D00638BE0 /* Flight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Flight.h; path = DataModel/Flight.h; sourceTree = "<group>"; };
+		FAD209C21D97481D00638BE0 /* Flight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Flight.m; path = DataModel/Flight.m; sourceTree = "<group>"; };
+		FAD209C81D97D91800638BE0 /* ResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultCell.h; path = SearchResult/ResultCell.h; sourceTree = "<group>"; };
+		FAD209C91D97D91800638BE0 /* ResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultCell.m; path = SearchResult/ResultCell.m; sourceTree = "<group>"; };
+		FAD209CA1D97D91800638BE0 /* ResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ResultCell.xib; path = SearchResult/ResultCell.xib; sourceTree = "<group>"; };
+		FAD209CE1D97F23100638BE0 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utility.h; path = Util/Utility.h; sourceTree = "<group>"; };
+		FAD209CF1D97F23100638BE0 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utility.m; path = Util/Utility.m; sourceTree = "<group>"; };
+		FAD209D21D982D4500638BE0 /* LoadingIndicatior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadingIndicatior.h; path = Util/LoadingIndicatior.h; sourceTree = "<group>"; };
+		FAD209D31D982D4500638BE0 /* LoadingIndicatior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadingIndicatior.m; path = Util/LoadingIndicatior.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAD209621D95DCF500638BE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD2097B1D95DCF500638BE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAD2095C1D95DCF400638BE0 = {
+			isa = PBXGroup;
+			children = (
+				FAD209671D95DCF500638BE0 /* RyanAir */,
+				FAD209811D95DCF500638BE0 /* RyanAirTests */,
+				FAD209661D95DCF500638BE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD209661D95DCF500638BE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD209651D95DCF500638BE0 /* RyanAir.app */,
+				FAD2097E1D95DCF500638BE0 /* RyanAirTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD209671D95DCF500638BE0 /* RyanAir */ = {
+			isa = PBXGroup;
+			children = (
+				FAD209CD1D97F20500638BE0 /* Utils */,
+				FAD209B51D9732DB00638BE0 /* SearchResults */,
+				FAD209AE1D96E24A00638BE0 /* Airports */,
+				FAD209A51D96DB5E00638BE0 /* Manager */,
+				FAD2099F1D96D77700638BE0 /* DataModel */,
+				FAD2099D1D96D22D00638BE0 /* Common */,
+				FAD209961D96B0BC00638BE0 /* Home */,
+				FAD2098D1D95DD0200638BE0 /* Passenger */,
+				FAD2096B1D95DCF500638BE0 /* AppDelegate.h */,
+				FAD2096C1D95DCF500638BE0 /* AppDelegate.m */,
+				FAD209741D95DCF500638BE0 /* Assets.xcassets */,
+				FAD209761D95DCF500638BE0 /* LaunchScreen.storyboard */,
+				FAD209791D95DCF500638BE0 /* Info.plist */,
+				FAD209681D95DCF500638BE0 /* Supporting Files */,
+			);
+			path = RyanAir;
+			sourceTree = "<group>";
+		};
+		FAD209681D95DCF500638BE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAD209691D95DCF500638BE0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAD209811D95DCF500638BE0 /* RyanAirTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD209821D95DCF500638BE0 /* RyanAirTests.m */,
+				FAD209841D95DCF500638BE0 /* Info.plist */,
+			);
+			path = RyanAirTests;
+			sourceTree = "<group>";
+		};
+		FAD2098D1D95DD0200638BE0 /* Passenger */ = {
+			isa = PBXGroup;
+			children = (
+				FAD209911D95DDCA00638BE0 /* ChoosePassengersViewController.h */,
+				FAD209921D95DDCA00638BE0 /* ChoosePassengersViewController.m */,
+				FAD209931D95DDCA00638BE0 /* ChoosePassengersViewController.xib */,
+			);
+			name = Passenger;
+			sourceTree = "<group>";
+		};
+		FAD209961D96B0BC00638BE0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FAD209981D96B0FE00638BE0 /* FlightSearchViewController.h */,
+				FAD209991D96B0FE00638BE0 /* FlightSearchViewController.m */,
+				FAD2099A1D96B0FE00638BE0 /* FlightSearchViewController.xib */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		FAD2099D1D96D22D00638BE0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FAD2099E1D96D27000638BE0 /* Constants.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		FAD2099F1D96D77700638BE0 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				FAD209A01D96D7B000638BE0 /* Airport.h */,
+				FAD209A11D96D7B000638BE0 /* Airport.m */,
+				FAD209AF1D96E72200638BE0 /* SearchData.h */,
+				FAD209B01D96E72200638BE0 /* SearchData.m */,
+				FAD209BB1D9735C400638BE0 /* SearchResult.h */,
+				FAD209BC1D9735C400638BE0 /* SearchResult.m */,
+				FAD209BE1D97472E00638BE0 /* Fare.h */,
+				FAD209BF1D97472E00638BE0 /* Fare.m */,
+				FAD209C11D97481D00638BE0 /* Flight.h */,
+				FAD209C21D97481D00638BE0 /* Flight.m */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		FAD209A51D96DB5E00638BE0 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FAD209A61D96DBCF00638BE0 /* ConnectionManager.h */,
+				FAD209A71D96DBCF00638BE0 /* ConnectionManager.m */,
+				FAD209B21D971AB800638BE0 /* DataManager.h */,
+				FAD209B31D971AB800638BE0 /* DataManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		FAD209AE1D96E24A00638BE0 /* Airports */ = {
+			isa = PBXGroup;
+			children = (
+				FAD209A91D96E23000638BE0 /* AirportsViewController.h */,
+				FAD209AA1D96E23000638BE0 /* AirportsViewController.m */,
+				FAD209AB1D96E23000638BE0 /* AirportsViewController.xib */,
+			);
+			name = Airports;
+			sourceTree = "<group>";
+		};
+		FAD209B51D9732DB00638BE0 /* SearchResults */ = {
+			isa = PBXGroup;
+			children = (
+				FAD209B61D97330E00638BE0 /* SearchResultsViewController.h */,
+				FAD209B71D97330E00638BE0 /* SearchResultsViewController.m */,
+				FAD209B81D97330E00638BE0 /* SearchResultsViewController.xib */,
+				FAD209C81D97D91800638BE0 /* ResultCell.h */,
+				FAD209C91D97D91800638BE0 /* ResultCell.m */,
+				FAD209CA1D97D91800638BE0 /* ResultCell.xib */,
+			);
+			name = SearchResults;
+			sourceTree = "<group>";
+		};
+		FAD209CD1D97F20500638BE0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FAD209CE1D97F23100638BE0 /* Utility.h */,
+				FAD209CF1D97F23100638BE0 /* Utility.m */,
+				FAD209D21D982D4500638BE0 /* LoadingIndicatior.h */,
+				FAD209D31D982D4500638BE0 /* LoadingIndicatior.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAD209641D95DCF500638BE0 /* RyanAir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD209871D95DCF500638BE0 /* Build configuration list for PBXNativeTarget "RyanAir" */;
+			buildPhases = (
+				FAD209611D95DCF500638BE0 /* Sources */,
+				FAD209621D95DCF500638BE0 /* Frameworks */,
+				FAD209631D95DCF500638BE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RyanAir;
+			productName = RyanAir;
+			productReference = FAD209651D95DCF500638BE0 /* RyanAir.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAD2097D1D95DCF500638BE0 /* RyanAirTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD2098A1D95DCF500638BE0 /* Build configuration list for PBXNativeTarget "RyanAirTests" */;
+			buildPhases = (
+				FAD2097A1D95DCF500638BE0 /* Sources */,
+				FAD2097B1D95DCF500638BE0 /* Frameworks */,
+				FAD2097C1D95DCF500638BE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD209801D95DCF500638BE0 /* PBXTargetDependency */,
+			);
+			name = RyanAirTests;
+			productName = RyanAirTests;
+			productReference = FAD2097E1D95DCF500638BE0 /* RyanAirTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAD2095D1D95DCF400638BE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Macbook;
+				TargetAttributes = {
+					FAD209641D95DCF500638BE0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TVMUU3F94D;
+					};
+					FAD2097D1D95DCF500638BE0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TVMUU3F94D;
+						TestTargetID = FAD209641D95DCF500638BE0;
+					};
+				};
+			};
+			buildConfigurationList = FAD209601D95DCF400638BE0 /* Build configuration list for PBXProject "RyanAir" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAD2095C1D95DCF400638BE0;
+			productRefGroup = FAD209661D95DCF500638BE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD209641D95DCF500638BE0 /* RyanAir */,
+				FAD2097D1D95DCF500638BE0 /* RyanAirTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD209631D95DCF500638BE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD209781D95DCF500638BE0 /* LaunchScreen.storyboard in Resources */,
+				FAD209751D95DCF500638BE0 /* Assets.xcassets in Resources */,
+				FAD209CC1D97D91800638BE0 /* ResultCell.xib in Resources */,
+				FAD2099C1D96B0FE00638BE0 /* FlightSearchViewController.xib in Resources */,
+				FAD209951D95DDCA00638BE0 /* ChoosePassengersViewController.xib in Resources */,
+				FAD209AD1D96E23000638BE0 /* AirportsViewController.xib in Resources */,
+				FAD209BA1D97330E00638BE0 /* SearchResultsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD2097C1D95DCF500638BE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD209611D95DCF500638BE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD209941D95DDCA00638BE0 /* ChoosePassengersViewController.m in Sources */,
+				FAD209B91D97330E00638BE0 /* SearchResultsViewController.m in Sources */,
+				FAD209D41D982D4500638BE0 /* LoadingIndicatior.m in Sources */,
+				FAD209A21D96D7B000638BE0 /* Airport.m in Sources */,
+				FAD2096D1D95DCF500638BE0 /* AppDelegate.m in Sources */,
+				FAD209A81D96DBCF00638BE0 /* ConnectionManager.m in Sources */,
+				FAD2099B1D96B0FE00638BE0 /* FlightSearchViewController.m in Sources */,
+				FAD209C31D97481D00638BE0 /* Flight.m in Sources */,
+				FAD209D01D97F23100638BE0 /* Utility.m in Sources */,
+				FAD209AC1D96E23000638BE0 /* AirportsViewController.m in Sources */,
+				FAD209CB1D97D91800638BE0 /* ResultCell.m in Sources */,
+				FAD209C01D97472E00638BE0 /* Fare.m in Sources */,
+				FAD2096A1D95DCF500638BE0 /* main.m in Sources */,
+				FAD209BD1D9735C400638BE0 /* SearchResult.m in Sources */,
+				FAD209B41D971AB800638BE0 /* DataManager.m in Sources */,
+				FAD209B11D96E72200638BE0 /* SearchData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD2097A1D95DCF500638BE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD209831D95DCF500638BE0 /* RyanAirTests.m in Sources */,
+				FAD209D11D98103100638BE0 /* SearchData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAD209801D95DCF500638BE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD209641D95DCF500638BE0 /* RyanAir */;
+			targetProxy = FAD2097F1D95DCF500638BE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAD209761D95DCF500638BE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD209771D95DCF500638BE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAD209851D95DCF500638BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAD209861D95DCF500638BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAD209881D95DCF500638BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RyanAir/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Niladri.RyanAir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAD209891D95DCF500638BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RyanAir/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Niladri.RyanAir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAD2098B1D95DCF500638BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RyanAirTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Niladri.RyanAirTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RyanAir.app/RyanAir";
+			};
+			name = Debug;
+		};
+		FAD2098C1D95DCF500638BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RyanAirTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Niladri.RyanAirTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RyanAir.app/RyanAir";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAD209601D95DCF400638BE0 /* Build configuration list for PBXProject "RyanAir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD209851D95DCF500638BE0 /* Debug */,
+				FAD209861D95DCF500638BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD209871D95DCF500638BE0 /* Build configuration list for PBXNativeTarget "RyanAir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD209881D95DCF500638BE0 /* Debug */,
+				FAD209891D95DCF500638BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD2098A1D95DCF500638BE0 /* Build configuration list for PBXNativeTarget "RyanAirTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD2098B1D95DCF500638BE0 /* Debug */,
+				FAD2098C1D95DCF500638BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAD2095D1D95DCF400638BE0 /* Project object */;
+}
